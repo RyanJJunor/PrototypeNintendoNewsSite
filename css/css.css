@@ -1,0 +1,198 @@
+body{
+	
+	font-family:verdana;
+	min-width:750px;
+
+	
+}
+
+#bg {
+	background-image: url("../img/botw.jpg");
+	position: fixed;
+    height: 100%;
+    width: 100%;
+    background-size: cover;
+    background-position: fixed;
+	top:0;
+	left: 0;
+    z-index: -2;
+	background-repeat: no-repeat;
+}
+
+.stretch {
+    width:100%;
+    height:100%;
+}
+
+
+#list li{
+display:inline;
+padding: 20px 0px 20px 0px;
+text-align :center;
+text-decoration: none;
+font-size: 20px;
+margin:-3px;
+    cursor: pointer;
+}
+
+@media screen and (min-width: 900px) {
+	#menu_img { display:none;
+	
+	}
+}
+
+
+#list li:hover{
+background-color:#01c3e7;
+}
+
+
+
+
+
+#list li a{
+	text-decoration: none;
+	font-family:verdana;
+	color: black;
+	padding: 20px 30px 20px 30px;
+	margin:-2px;
+}
+
+#list{
+	text-align: center;
+	background-color: white;
+	padding:20px 20px;
+	margin: 0px 0px;
+	
+}
+
+#drop_down{
+margin: 10px 0px;
+}
+
+#menu_bar{    
+
+
+	}
+
+h1{
+	text-align :center;
+	font-size:50px;
+	min-width:750px;
+	margin-bottom: 25px;
+}
+
+h2{
+	text-align :center;
+	font-size:30px;
+	margin-top:20px;
+	margin-bottom:0px
+}
+
+#currentPage{
+	background-color:#ff584d;
+	color: black
+}
+
+#content{
+	background-color:white;
+	margin:0px 190px;
+	min-width:350px;
+	height: 1000px;
+
+	
+}
+
+
+#footer{
+	margin:50px 0px;
+	min-width:350px;
+	padding: 5px 190px;
+	color:white;
+	
+}
+
+#leftjc{
+	position: sticky;
+    top: 2px;
+    left: 15px;
+
+}
+
+#rightjc{
+	position: sticky;
+	top:2px;
+	margin-right: 5px;
+	z-index:50;
+	
+
+}
+
+#postImg{
+	height: 150px;
+	width: 200px;
+	float: left;
+	margin: 0px 10px 0px 0px;
+	
+}
+
+#menu{
+	position:relative;
+	min-width:1200px
+}
+
+#postWindow{
+	margin:10px;
+	padding: 10px;
+	/*border:2px solid red;*/
+	overflow:hidden;
+	
+}
+
+#post{
+	overflow:hidden;
+	margin: 10px 0px 0px 0px;
+	padding: 10px;
+	border-bottom:2px solid #c1bcb9;
+	text-decoration: none;
+	/*background-color: rgba(194, 194, 194, 0.34);*/
+	
+}
+
+
+#post:hover{
+	color: red;
+	text-decoration: none;
+}
+
+a{ 
+text-decoration: none;
+color: black;
+}
+
+
+#logIn{
+	position: center;
+	color:green;
+	border: 5px solid blue;
+	border-collapse: collapse;
+	width: 200px;
+	
+}
+
+#logIn td{
+	
+	padding: 5px;
+	border: 5px solid blue;
+	border-collapse: collapse;
+	
+}
+
+#logInForm{
+	width:200px;
+	position: fixed;
+	Top: 300px;
+	
+}
+
+}

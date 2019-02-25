@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+<head>
+<link rel="stylesheet" media="screen and (min-width: 0px)"href="css\cssRegister.css">
+<link rel="stylesheet" media="screen and (max-width: 899px)"href="css\css_smallRegister.css">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<script src="javascript.js"></script>
+    
+<title>My Website</title>
+</head>
+
+<body>
+    
+    <div id="bg"></div>
+
+<h1>Nintendo Switch News</h1>
+
+
+
+<script>menu();</script>
+
+
+<img id="leftjc" src="img/jcleft_better.png" alt="left joycon" style="float:left;" width="175" height="475">
+<img id="rightjc" src="img/jcright_better.png" alt="right joycon" style="float:right;" width="175" height="475">
+<script>getStyle();</script>
+
+
+<div id="content">
+
+<form id="logInForm" action="registerPage.php" target="blank" method="post"> 
+<table id ="logIn">
+  <tr>
+    <td>Username:</td>
+	<td><input type="text" name="username"></td>
+  </tr>
+	<tr>
+    <td>Email:</td>
+	<td><input type="text" name="email"></td>
+  </tr>
+  <tr>
+    <td>Password:</td>
+    <td><input type="text" name="password"></td>
+  </tr>
+  <tr>
+  <td></td>
+    <td><input type="submit" value="Submit" id="buttons"></td>
+  </tr>
+</table>
+    </form>
+
+</div>
+
+
+</body>
+
+<script>footer();</script>
+
+
+</html>

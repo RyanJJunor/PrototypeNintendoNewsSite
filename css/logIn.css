@@ -1,0 +1,125 @@
+body{
+	font-family:verdana;
+	min-width:750px;
+	
+}
+
+#list li{
+display:inline;
+padding: 20px 0px 20px 0px;
+text-align :center;
+text-decoration: none;
+font-size: 20px;
+margin:-2px;
+
+
+}
+
+#list li:hover{
+background-color:#01c3e7;
+}
+
+
+#list li a{
+	text-decoration: none;
+	font-family:verdana;
+	color: black;
+	padding: 20px 60px 20px 60px;
+	margin:-2px;
+}
+
+#list{
+	text-align: center;
+	background-color: white;
+	padding: 20px;
+	
+}
+
+
+h1{
+	text-align :center;
+	font-size:50px;
+	min-width:750px;
+	margin-bottom: 25px;
+}
+
+h2{
+	text-align :center;
+	font-size:30px;
+	margin-top:20px;
+	margin-bottom:0px
+}
+
+#currentPage{
+	background-color:#ff584d;
+	color: black
+}
+
+#content{
+	background-color:grey;
+	margin:0px 190px;
+	padding: 50px;
+	min-width:350px;
+	height: 375px;
+
+	
+}
+
+#screen{
+	background-color: black;
+	width: 100%;
+	height: 100%;
+}
+
+
+#footer{
+	background-color:red;
+	margin:50px 0px;
+	min-width:350px;
+	padding: 5px 190px;
+	color:white;
+	
+}
+
+#leftjc{
+	position: sticky;
+    top: 2px;
+    left: 15px;
+
+}
+
+#rightjc{
+	position: sticky;
+	top:2px;
+	margin-right: 5px;
+	z-index:50;
+	
+
+}
+
+#menu{
+	position:relative;
+	min-width:1200px
+}
+
+#logIn{
+	color:red;
+
+	border-collapse: collapse;
+	margin:auto auto;
+	top:140px;
+	position:relative;
+
+}
+
+#logIn td{
+	
+	padding: 5px;
+	border-collapse: collapse;
+	
+}
+
+#logInForm{
+	margin:auto auto;
+	padding: 0px;
+}
