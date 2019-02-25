@@ -36,5 +36,5 @@ function footer() {
 
 function menu() {
     
-    document.write('<div id="menu_bar"><div id="drop_down"><img id="menu_img" src="img/menu.png" alt="menu_icon" width="50" height="50"><ul id="list"><li><a href = "index.html">News</a></li><li><a href = "Games.html">Games</a></li><li><a href = "OtherNews.html">Other News</a></li><li><a href = "Register.html">Register</a></li><li><a href = "Login.html">Log In</a></li><li><a onclick=changeStyle();>Style</a></li></ul></div></div>');
+    document.write('<div id="menu_bar"><div id="drop_down"><img id="menu_img" src="img/menu.png" alt="menu_icon" width="50" height="50"><ul id="list"><li><a href = "index.html">News</a></li><li><a href = "Games.html">Games</a></li><li><a href = "OtherNews.html">Other News</a></li><li><a href = "Register.html">Register</a></li><li><a href = "LogIn.html">Log In</a></li><li><a onclick=changeStyle();>Style</a></li></ul></div></div>');
 }
